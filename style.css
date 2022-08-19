@@ -1,6 +1,96 @@
+body{
+    position: absolute;
+    width: 1440px;
+    height: 870px;
+    left: 0px;
+    top: 0px;
+    
+    background: #1C1A19;
+}
+.heading{
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    
+    background: #3E3C3C;
+}
+#name{
+    width: 192px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 100% */
+left:192px;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}
 .intro{
-  color:blue; 
+    width: 566px;
+    height: 160px;
+    
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    /* or 113% */
+    
+    left:143px;
+    color: #F55800;
 }
 .brief{
-  color:red;
+    width: 566px;
+    height: 24px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    /* or 138% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.describe
+{
+    width: 566px;
+height: 123px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+
+/* Neutrals/N20 */
+
+color: #F4F5F7;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
 }
